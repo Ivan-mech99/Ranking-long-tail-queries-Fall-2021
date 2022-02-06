@@ -15,6 +15,15 @@
 При этом сгенерируется 2 набора файлов. Файлы:  
 * enlarged_querrys.pickle
 * id_querry.pickle
+* id_querry_clean.pickle
+* id_querry_norm.pickle
+* id_querry_spelled.pickle
+* querry_id.pickle
+* querry_id_spelled.pickle
+
+необходимо поместить в папку **query_dict**. Файлы:
+
+* q
 
 2. ф
 3. ф
