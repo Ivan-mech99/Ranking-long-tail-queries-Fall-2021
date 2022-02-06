@@ -3,3 +3,10 @@
 
 Примечание 2: в этой же директории должны лежать файлы:  
    *  docs.tsv.gz
+   *  2017.tar
+   *  queries.tsv
+   *  url.data
+   *  train.marks.tsv
+   *  sample.csv  
+
+##Инструкция по запуску
