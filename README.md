@@ -23,7 +23,12 @@
 
 необходимо поместить в папку **query_dict**. Файлы:
 
-* q
+* clean_title_data.pickle
+* norm_title_data.pickle
+* spelled_title_data.pickle
+* title_data.pickle
+
+необходимо поместить в папку **title_dict**. Остальные файлы можно запускать в любом порядке (разбиваем нормализованные и ненормализованные тексты по запросам).
 
 2. ф
 3. ф
