@@ -53,4 +53,11 @@
 
 8. Второй этап генерации всех кликовых фичей - запускаем файлы из папки **final_click_features_preprocessing** (в любом порядке).
 
-10. ф
+9. Генерируем трейновый и тестовый датафрейм для загрузки в google colab и расчетов на gpu. Запускаем файл make_prediction.ipynb из папки **predict_and_submit**. Полученные при этом файлы (см. ниже) загружаем на гугл диск:
+
+* export_train.csv
+* export_test.csv
+* export_y.pickle
+* qifs.pickle
+
+В google colab запускаем ноутбук **catboost_best_best.ipynb**, обучаем модель, сохраняем ее в файл "deep_yeti_trees.cbm" (можно раскомментить соотв. ячейку), делаем predict. Можем загрузить уже обученную модель из этой же папки и сделать predict на 6000 деревьев.
